@@ -413,6 +413,11 @@ text-align: center;}
     position: relative;
     background-color: #fff;
     box-shadow: var(--shadow);
+    height: 25rem;
+}
+
+.blog-post img{
+    justify-content: center;
 }
 
 .blog-post .content {
@@ -437,8 +442,7 @@ text-align: center;}
 
 .blog-post small {
     text-transform: uppercase;
-    color: var(--brand);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer {
