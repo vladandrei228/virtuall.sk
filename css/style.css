@@ -158,14 +158,8 @@ section {
     height:120px;
 }
 
-.navbar {
-    width:100%;
-    position: absolute;
-    top:0;
-    left:0;
-    padding: 20px 8%;
-    display: flex;
-    align-items: center;
+.navbar{
+    box-shadow: var(--shadow);
 }
 
 .navbar .navbar-nav .nav-link {

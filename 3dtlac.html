@@ -41,13 +41,12 @@
             </div>
         </div>
     </div>
-<section class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top mt-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand d-none d-sm-block" href="#"><img class="Logo" src="img/1.png" alt=""></a>
             <a class="navbar-brand d-block d-sm-none col" href="#"><img class="Logo" style="width: 150px; height: 150px;" src="img/1.png" alt=""></a>
             <button class="navbar-toggler btn-brand" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -70,11 +69,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Kontaktujte nás</a>
                     </li>
-                </ul>    
+                </ul>
+                
             </div>
         </div>
     </nav>
-</section>
     <section>
         <div class="container">
             <div class="row text-center justify-content-center align-items-center gy-4">
@@ -124,33 +123,33 @@
         <div class="container-fluid">
             <div class="row gy-4">
                 <div class="col-lg-8">
-                    <form class="p-lg-5 col-12 row g-3" action="mailto:vladandreigruia08@yahoo.com" method="post" enctype="text/plain">
+                    <form action="https://submit-form.com/mBLImCK1" class="p-lg-5 col-12 row g-3">
                         <div>
                             <h1>Kontaktujte Nás</h1>
                         <p>Napíšte nám správu a ozveme sa čo najskôr !</p>
                         </div>
                         <div class="col-lg-6">
-                            <label for="userName" class="form-label">First name</label>
-                            <input type="text" class="form-control" placeholder="Jon" id="userName"
-                                aria-describedby="emailHelp">
+                            <label for="name" class="form-label">Meno</label>
+                            <input class="form-control" type="text" id="name" name="name" placeholder="Name" required="" />
                         </div>
                         <div class="col-lg-6">
-                            <label for="userName" class="form-label">Last name</label>
-                            <input type="text" class="form-control" placeholder="Doe" id="userName"
-                                aria-describedby="emailHelp">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" type="email" id="email" name="email" placeholder="Email" required="" />
                         </div>
                         <div class="col-12">
-                            <label for="userName" class="form-label">Email address</label>
-                            <input type="email" class="form-control" placeholder="Johndoe@example.com" id="userName"
-                                aria-describedby="emailHelp">
-                        </div>
-                        <div class="col-12">
-                            <label for="exampleInputEmail1" class="form-label">Enter Message</label>
-                            <textarea name="" placeholder="This is looking great and nice." class="form-control" id=""  rows="4"></textarea>
+                            <label for="message" class="form-label">Vaša správa</label>
+                            <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Message"
+                            required=""
+                            rows="4"
+                            class="form-control"
+                            ></textarea>
                         </div>
 
                         <div class="col-12">
-                            <button type="submit" name="submit" value="Submit" class="btn btn-brand">Send Message</button>
+                            <button type="submit" class="btn btn-brand">Send Message</button>
                         </div>
                     </form>
                 </div>
