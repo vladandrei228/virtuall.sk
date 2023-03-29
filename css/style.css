@@ -160,6 +160,7 @@ section {
 
 .navbar{
     box-shadow: var(--shadow);
+    background-color: #545454;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -480,11 +481,11 @@ footer p {
 }
 
 .footerMargin p{
-    color: #333333;
+    color: #696969;
 }
 
 .footerMargin p a{
-    color: #333333;
+    color: #696969;
     text-decoration: none;
 }
 
